@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	bath := convert.BathText(100.00)
+	num := convert.NumberFormat(-10000.515, 2, true)
 
-	fmt.Println(bath)
+	fmt.Println(num)
 }
