@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	bath := convert.bathText(100.00)
+	bath := convert.BathText(100.00)
 
 	fmt.Println(bath)
 }
