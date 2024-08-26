@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/PurinPintakhiew/convertthai"
-) 
+	"github.com/PurinPintakhiew/go-convert-thai/convert"
+)
 
 func main() {
-	bath := convertthai.bathText(100)
+	bath := convert.bathText(100.00)
 
 	fmt.Println(bath)
 }
