@@ -1,4 +1,4 @@
-package convert
+package convertthai
 
 var numberThConstants = map[string]string{
 	"0": "๐",
