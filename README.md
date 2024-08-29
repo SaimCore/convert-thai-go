@@ -18,6 +18,6 @@ func main(){
   fmt.Println(num) // ผลลัพธ์ ๑,๐๐๐.๐๐
 
   date := convertthai.DateFormat(time.Now(),"dd-mm-yyyy")
-  fmt.Println(date) // ผลลัพธ์ ๒๙-๐๘-๒๐๒๕
+  fmt.Println(date) // ผลลัพธ์ ๒๙-๐๘-๒๐๒๔
 }
 ```
