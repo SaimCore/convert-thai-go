@@ -14,6 +14,10 @@ import (
 )
 
 func main(){
+  num := convertthai.NumberFormat(1000, 2, true)
+  fmt.Println(num) // ผลลัพธ์ ๑,๐๐๐.๐๐
 
+  date := convertthai.DateFormat(time.Now(),"dd-mm-yyyy")
+  fmt.Println(date) // ผลลัพธ์ ๒๙-๐๘-๒๐๒๕
 }
 ```
