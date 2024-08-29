@@ -4,3 +4,16 @@ This package is used for converting date and number data into Thai format. (เนเ
 ```
 go get github.com/PurinPintakhiew/go-convert-thai
 ```
+## How to use
+```
+package main
+
+import (
+  "fmt"
+  "github.com/PurinPintakhiew/go-convert-thai"
+)
+
+func main(){
+
+}
+```
