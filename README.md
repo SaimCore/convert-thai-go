@@ -15,9 +15,11 @@ import (
 )
 
 func main(){
+  // แปลงเลขอารบิกเป็นเลขไทย
   num := convertthai.NumberFormat(1000, 2, true)
   fmt.Println(num) // ผลลัพธ์ ๑,๐๐๐.๐๐
 
+  // แปลงวันที่เป็นรูปแบบไทย
   date := convertthai.DateFormat(time.Now(),"dd-mm-yyyy")
   fmt.Println(date) // ผลลัพธ์ ๒๙-๐๘-๒๐๒๔
 }
