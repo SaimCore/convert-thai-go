@@ -22,5 +22,9 @@ func main(){
   // แปลงวันที่เป็นรูปแบบไทย
   date := convertthai.DateFormat(time.Now(),"dd-mm-yyyy")
   fmt.Println(date) // ผลลัพธ์ ๒๙-๐๘-๒๐๒๔
+
+  // แปลงจำนวนเงินเป็นรูปแบบไทยบาท
+  thaiBath := convertthai.ThaiBath(1000)
+  fmt.Println(thaiBath) // ผลลัพธ์ หนึ่งพันบาทถ้วน
 }
 ```
