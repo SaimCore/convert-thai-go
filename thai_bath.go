@@ -58,8 +58,8 @@ func ThaiBath(number float64) string {
 		return "ศูนย์บาทถ้วน"
 	}
 
-	n := math.Floor(number*100) / 100
-	numberStr := strconv.FormatFloat(n, 'f', 2, 64)
+	num := math.Floor(number*100) / 100
+	numberStr := strconv.FormatFloat(num, 'f', 2, 64)
 	numberArr := strings.Split(numberStr, ".")
 
 	integerArr := strings.Split(numberArr[0], "")
