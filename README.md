@@ -1,5 +1,7 @@
 # go-convert-thai ✨
 This package helps to format dates according to Thai standards and convert numbers to Thai text, making it suitable for applications that need to display data in Thai specifically. (แพคเกจนี้ช่วยจัดรูปแบบวันที่ตามมาตรฐานไทยและแปลงตัวเลขให้เป็นข้อความภาษาไทย ทำให้เหมาะกับแอพพลิเคชันที่ต้องการแสดงข้อมูลเป็นภาษาไทยโดยเฉพาะ)
+
+[![godocs.io](https://godocs.io/github.com/PurinPintakhiew/go-convert-thai?status.svg)](https://godocs.io/github.com/PurinPintakhiew/go-convert-thai)
 ## Install (ติดตั้ง) 🛠️
 ```
 go get github.com/PurinPintakhiew/go-convert-thai
