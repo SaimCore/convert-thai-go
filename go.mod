@@ -1,3 +1,3 @@
-module github.com/PurinPintakhiew/go-convert-thai
+module github.com/SaimCore/convert-thai-go
 
-go 1.23.0
+go 1.25.1
